@@ -2,14 +2,15 @@
 
 Congratulations! The Doctor<sup>1</sup> has chosen you as the next assistant. The reason, of course, is because of your skills as a mobile developer and that the Doctor would like to bring TARDIS<sup>2</sup> into the world of mobile connected solutions.
 
-Your task as the assistant is to implement some features in React Native and at your disgression. Basically the Doctor realizes your a busy person and its up to you which features to start with and how much to complete. At the very least it would be appreciated if at least one feature in each column below is in a state of progress.
+Your task as the assistant is to implement some features in React Native and at your disgression. Basically the Doctor realizes your a busy person and its up to you which features to start with and how much to complete. At the very least it would be appreciated if at least one feature in each column below is in a state of progress. ***Please unit test your code***. A good demonstration of testing will be highly recognized.
 
-| 1.     | 2.         |
-| ------ | ---------- |
-| KeyFob | Animations |
-| Login  | Native     |
-| Manual | Navigation |
-|        | TypeScript |
+| 1.     | 2.                 |
+| ------ | ------------------ |
+| KeyFob | Animations         |
+| Login  | Functional Testing |
+| Manual | Native             |
+|        | Navigation         |
+|        | TypeScript         |
 
 The implementation of the listed features will be described in more detail.
 
@@ -41,9 +42,11 @@ yarn run server
 
 The server will run on ***localhost:3000***. Any modifications to the server should not be necessary, however, if you feel you really must then it is within bounds to do so.
 
-## Testing
+*Note ***localhost*** will not work on Android without configuration. Feel free to use your IP or recommend a workaround.
 
-Please test your work. ***jest*** is included as a dependency. Any other testing frameworks that could be of help are allowed and appreciated.
+## Unit Testing
+
+Please unit test your work. ***jest*** is included as a dependency. Any other testing frameworks that could be of help are allowed and appreciated.
 
 # Features in column 1.
 
@@ -146,6 +149,10 @@ The features in column 2 of the table in the ***Overview*** are more open ended 
 ## Animations
 
 The application is fairly static. Consider adding animations in places like the Login or KeyFob feature to convey progress. Or create an entirely new component and add some fanciful animation. It's really up to you what you'd like to show.
+
+## Functional Testing
+
+The Doctor respects the testing pyramid. Show off your functional testing knowledge by leveraging a framework to test the applications UI. [Detox](https://github.com/wix/detox) is a suitable framework and any other is welcome to.
 
 ## Native
 
