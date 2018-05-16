@@ -4,6 +4,7 @@
 
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import {KeyFob} from './components';
 
 type Props = {};
 
@@ -11,8 +12,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+        <KeyFob/>
         <Text style={styles.instructions}>
-          Welcome to the TARDIS coding exercise! Please read the README.md for more instructions on what to implement.
+        Test text
         </Text>
       </View>
     );
